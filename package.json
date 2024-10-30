@@ -1,0 +1,28 @@
+{
+  "name": "eslint-plugin-forbid-log-strings",
+  "version": "1.0.0",
+  "description": "ESLint Plugin to forbid certain strings in logger statements",
+  "main": "lib/index.js",
+  "repository": "git@github.com:maks-io/eslint-plugin-forbid-log-strings.git",
+  "author": "Markus Kurzmann <markus@kurzmann.io>",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslint plugin",
+    "console",
+    "console.log",
+    "logger",
+    "log",
+    "strings"
+  ],
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "yarn nodemon"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  }
+}
